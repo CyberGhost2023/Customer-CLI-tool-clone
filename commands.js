@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
+// commander library for writing commands
 const program= require("commander")
 const {addCustomer,findCustomer,updateCustomer,deleteCustomer,listCustomers}=require("./index")
+// inquirer library to provide UI in Command line
 const {prompt}=require("inquirer")
 
 

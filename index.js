@@ -7,7 +7,7 @@ mongoose.connect(DBHOST,{
     useNewUrlParser:true,
     useUnifiedTopology:true
         }).catch(err=>{    
-            console.log("something went wrong");
+            console.log(err);
         });
 
 
